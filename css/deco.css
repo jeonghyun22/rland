@@ -1,0 +1,117 @@
+
+.deco{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.deco-note:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.deco:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.deco::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /* background:url(../image/note.svg) no-repeat center; */
+    /* background-size: 16px 16px; */
+    background-color: rgb(20, 20, 20);
+    mask-image:url(../image/note.svg);
+    mask-size: 16px 16px;
+    -webkit-mask-image:url(../image/note.svg) ;
+    -webkit-mask-size: 16px 16px;
+}
+
+.deco:hover:before{
+    background-color: rgb(172, 109, 109);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.deco-note:hover{
+    background-color: black;
+    color: aliceblue;
+    
+
+}
+
+.deco-note::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /* background:url(../image/note.svg) no-repeat center; */
+    /* background-size: 16px 16px; */
+    background-color: rgb(20, 20, 20);
+    mask-image:url(../image/note.svg);
+    mask-size: 16px 16px;
+    -webkit-mask-image:url(../image/note.svg) ;
+    -webkit-mask-size: 16px 16px;
+}
+
+.deco-note:hover:before{
+    background-color: rgb(172, 109, 109);
+    
+}
+
+
+.deco-category:hover{
+    background-color: rgb(66, 59, 102);
+    color: aliceblue;
+    
+
+}
+
+.deco-category::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(98, 207, 175);
+    mask-image:url(../image/note.svg);
+    mask-size: 16px 16px;
+    -webkit-mask-image:url(../image/note.svg) ;
+    -webkit-mask-size: 16px 16px;
+}
+
+.deco-category:hover:before{
+    background-color: rgb(252, 0, 0);
+    
+}
+
+
+
+
+
+/* .deco-note{
+    display: inline-flex;
+    align-items: center;
+}
+
+.deco-note::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(/image/note.svg) no-repeat left center;
+    background-size: 16px 16px;
+}
+ */

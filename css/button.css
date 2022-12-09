@@ -1,0 +1,38 @@
+.btn{
+    padding: .4em .8em;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    /* line-height: 1.8em; */
+    
+    display: inline-flex;
+    align-items: center;
+
+    transition: background-color .5s;
+}
+
+.btn-default {
+    border-radius:20px;
+    background-color: brown;
+    border: 1px solid brown;
+}
+
+.btn-default-fill{
+    background-color: brown;
+    
+
+}
+
+.btn-default-line {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid brown;
+
+}
+
+.btn-cancel{
+    border-radius: 12px;
+    border: 1px solid brown;
+    background-color: aliceblue;
+    color: black;
+
+}

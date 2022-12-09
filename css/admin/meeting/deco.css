@@ -1,0 +1,16 @@
+.deco{
+    display: inline-flex;
+    align-items: center;
+}
+
+.deco::before{
+    content: '';
+    display: inline-block;
+    padding-left: 24px;
+    background: url(/image/note.svg/) no-repeat left center;
+    background-size:16px 16px;
+}
+
+.deco-note{
+
+}
